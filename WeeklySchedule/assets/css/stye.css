@@ -18,6 +18,8 @@ html, body, th, td {
 	margin: 0 auto;
 	width: 700px;
 	border: 2px solid #050;
+	text-align: center;
+	vertical-align: middle;
 }
 
 .ws table th, .ws table td {
