@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta chrset="utf-8"/>
+		<title>Weekly Schedule Converter</title>
+		<link rel="stylesheet" href="assets/css/stye.css" />
+	</head>
+	<body>
+		<div class="i">
+			<table id="input" border="2" bordercolor="#000">
+				<tr>
+					<th>Couse</th>
+					<th>Days</th>
+					<th>Time</th>
+					<th><button id="add-line">+</button></th>
+				</tr>
+				<tr>
+					<td><input type="text" placeholder="ENGL01-FH-02, MATH001-28 etc..."/></td>
+					<td><input type="text" placeholder="U, M, T, W & R"/></td>
+					<td><input type="text" placeholder="0800-0850"/></td>
+				</tr>
+			</table>
+		</div>
+		<hr />
+		<div class="ws">
+			<table id="time" cellspacing="0">
+				<tr>
+					<th></th>
+					<th>7:00<br />7:50</th>
+					<th>8:00<br />8:50</th>
+					<th>9:00<br />9:50</th>
+					<th>10:00<br />10:50</th>
+					<th>11:00<br />11:50</th>
+					<th>12:00<br />1:00</th>
+					<th>13:10<br />14:00</th>
+					<th>14:10<br />15:00</th>
+					<th>15:20<br />16:10</th>
+					<th>16:20<br />17:10</th>
+				</tr>
+				<tr>
+					<td>U</td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+				<tr>
+					<td>M</td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+				</tr>
+				<tr>
+					<td>T</td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+				</tr>
+				<tr>
+					<td>W</td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+				</tr>
+				<tr>
+					<td>R</td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+					<td class="clear"></td>
+				</tr>
+			</table>
+			<table id="courses" cellspacing="0">
+				<tr>
+					<th rowspan="3">Couse</th>
+					<th colspan="4">Location</th>
+					<th rowspan="3">Section</th>
+					<th rowspan="3">Instructor</th>
+				</tr>
+				<tr>
+					<th colspan="2">Lecture</th>
+					<th colspan="2">Recitation</th>
+				</tr>
+				<tr>
+					<th>B</th>
+					<th>R</th>
+					<th>B</th>
+					<th>R</th>
+				</tr>
+				<tr >
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+		
+		<script src="assets/js/jquery.js"></script>
+		<script src="assets/js/script.js"></script>
+	</body>
+</html>

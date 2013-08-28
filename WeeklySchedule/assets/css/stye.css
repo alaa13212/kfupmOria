@@ -1,0 +1,33 @@
+html, body, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+.i table {
+	margin: 20px auto 5px;
+	width: 700px;
+	border: 2px solid #050;
+}
+
+.i input {
+	width: 96%;
+	margin: 2px;
+}
+
+.ws table {
+	margin: 0 auto;
+	width: 700px;
+	border: 2px solid #050;
+}
+
+.ws table th, .ws table td {
+	border: 1px solid #050;
+}
+
+#time {
+	border-bottom: none;
+}
+
+#courses {
+	border-top: none;
+}
